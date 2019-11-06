@@ -5,6 +5,8 @@ type-name
 
 This library creates a `constexpr` string from the given type. For example, `getTypeName<int>()` function returns an "int" string.
 The library depends on [constexpr-string library](https://github.com/proxict/constexpr-string).
+ - Written in C++11
+ - So far, it only works with clang and gcc, I might add a support for more compilers in the future, if I'm not too lazy.
 
 Integration with CMake
 ----------------------------
