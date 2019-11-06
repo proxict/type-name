@@ -1,0 +1,7 @@
+--language
+c++
+-std=c++17
+-Iinclude
+-Iexternal/constexpr-string/include/
+-Wall
+-Wextra
